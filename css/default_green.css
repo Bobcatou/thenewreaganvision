@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/** 
+ * Default CSS Drop-Down Menu Theme
+ *
+ * @file		default.css
+ * @name		Default
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
+ * Expected directory tag - li
+ *
+ */
+
+ul.dropdown { font-weight: bold; background: #517015; }
+
+ul.dropdown a { text-decoration: none; padding: 4px 16px ; color: #fff; }
+ul.dropdown li li a {color: #333;}
+ul.dropdown a:hover	{ color: #fff; }	
+
+ul.dropdown li { padding: 7px 0 7px; height: 16px; border-bottom: solid 1px #517015; color: #fff; font-size: 12px; }
+
+ul.dropdown li li {	text-transform:none; margin:0; background-color: #ddd; font-size: 11px; border-bottom: solid 1px #bbb; border-right: solid 1px #fff; }
+
+ul.dropdown li:hover, ul.dropdown li.active, ul.dropdown li.current-cat, ul.dropdown li.current_page_item {background: #869c3b url(../images/back_menu_active_green.png) repeat-x top left;} /* active list/category */
+ul.dropdown li.active a {color: #fff;}
+
+/* subdir styles */
+ul.dropdown ul {	width: 200px;	 margin-top: 1px;	}
+ul.dropdown ul li {	font-weight: bold;		}
+/*-------------------------------------------------/
+ * @section		Support Class `dir`
+ * @level sep	ul, .class
+ */
+ul.dropdown *.dir {padding: 7px 8px 7px; }
+ul.dropdown li *.dir {font-weight: bold; text-transform:uppercase; padding-left:0; }
+ul.dropdown li *.dir li {font-weight: normal; text-transform:none; }
+ul.dropdown li *.dir a {}
+
+/* IE .hover fixes */
+* body ul.dropdown li.hover a {background:none; color: #333;}
+* body ul.dropdown li.hover {background-color: #869c3b; color: #fff; }

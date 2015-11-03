@@ -1,0 +1,97 @@
+body {color: #444; }
+a {text-decoration:none; color:#bd1c1c; }
+a:hover {text-decoration:none; color: #336699; }
+a.invert {text-decoration:underline; color:#336699; }
+a.invert:hover {text-decoration:none; color: #bd1c1c; }
+h1,h2,h3,h4,h5,h6 { color: #111; }
+
+#container { background: #fff; }
+
+#header {background-color: #1a1a1a;}
+
+#headRSS a {color: #aaa; }
+
+#search { color:#fff; }
+#searchformtop { background:url(../images/search.png) no-repeat;	}
+
+#headCats {background-color: #bd1c1c; border-top: solid 1px #dd6767;}
+#headPages {background-color: #e1e1e1; border-bottom: solid 1px #ccc; }
+
+#headPages a {color: #222; }
+#headPages a:hover {color: #777;}
+
+#featPosts {background: #222 url(../images/back_feat2.png) repeat top left; }
+#featPosts a {color: #fff;}
+#featPosts a:hover {color: #ff7664;}
+
+#postsBig, #postsSmall {color: #aaa;  }
+#postsSmall h2 a {color: #fff; }
+#postsSmall li.current, #postsSmall li:hover {background-color: #222; }
+#postsSmall div.cover img {border: solid 3px #444; }
+#postsSmall a {color: #aaa;}
+#postsSmall a:hover {color: #aaa;}
+
+#featuredCats, #content {background: #fff url(../images/back_sep_shadow.png) no-repeat top left; }
+#featuredCats p.header a {color: #111;}
+#featuredCats p.header a:hover {color: #336699;}
+#featuredCats div.sep {border-top: solid 1px #ccc; }
+#featuredCats ul.moreStories li { border-bottom: dotted 1px #aaa; }
+#featuredCats ul.moreStories li:hover {background-color: #f1f1f1; }
+
+#posts .post {border-top: dotted 1px #ccc; }
+div.column_count {background: url(../images/bubble_32.png) no-repeat top left; }
+div.column_count a {color: #bd1c1c; }
+
+/* Misc formatting */
+#main div.share, #main div.postauthor {background-color: #eee; border: dotted 1px #bbb; }
+#main div.postauthor div.avatar img {border: solid 3px #aaa;}
+#main div.postauthor p.more {border-bottom: dotted 1px #aaa;}
+
+#single p.tabs a {color: #fff; background-color: #bd1c1c; }
+#single p.tabs a:hover {color: #fff; background-color: #333;} 
+
+#single h2.comments, #respond h2.comment {background: url(../images/icon_comment.png) no-repeat top left; }
+#single h2.comments {background-image: url(../images/icon_comments.png); }
+
+/* Side block */
+#side div.post-side {border-bottom: dotted 1px #ccc; }
+#side div.post-side:hover {background-color: #eee;}
+
+/* Footer */
+#footer {background: #ddd url(../images/back_footer.png) repeat-x top left; border-bottom: solid 1px #ccc; }
+#footer p.header { color: #333; }
+#copyright {border-top: solid 1px #fff; background-color: #eee; }
+
+#searchform input {border: solid 1px #ccc; border-right: solid 1px #bd1c1c; }
+#searchform input#searchsubmit {	background-color:#bd1c1c; border: none; color: #fff; }
+
+/* Comments */
+.afterpost .navigation .alignleft a, .reply a, .afterpost .navigation .alignright a,.cancel-comment-reply a { background-color: #bd1c1c; text-shadow: 1px 1px #000; color: #fff; }
+.afterpost .navigation .alignleft a:hover, .afterpost .navigation .alignright a:hover, .reply a:hover, .cancel-comment-reply a:hover {background-color: #ddd; text-shadow: 1px 1px #fff; }
+.afterpost .navigation {background:none;}
+
+#main ol.normalComments a {text-decoration: none;}
+#main ol.normalComments a:hover {color: #336699;}
+#main .normalComments li.comment {background-color: #fff; border: solid 3px #eee; }
+#main .normalComments li.bypostauthor { background-color: #eee; }
+
+#main .normalComments cite.author {color: #333;}
+
+#main .normalComments div.gravatar img {border: solid 5px #333;}
+#main .normalComments div.gravatar-author img {border: solid 5px #333;}
+
+#main input, #main textarea, #commentform input, #commentform textarea {background-color: #ddd; border: 1px solid #bbb; color: #333;}
+#main #submit, #commentform #submit {background-color: #bd1c1c; color: #fff; border: none; }
+
+#main div.pagerbox a {color: #fff; padding: 4px 6px; background-color: #bd1c1c; }
+#main div.pagerbox a:hover {border: none; background-color: #333; color: #fff; }
+#main div.pagerbox a.current {color: #fff; background-color: #bd1c1c;}
+
+nav#main-menu li {border-right: dotted 1px #d63737;}
+ul.dropdown { background-color: #bd1c1c; }
+ul.dropdown a { text-decoration: none; color: #fff;}
+ul.dropdown li li a {color: #333;}
+ul.dropdown a:hover	{ color: #fff; }	
+ul.dropdown li:hover, ul.dropdown li.active, ul.dropdown li.current-cat, ul.dropdown li.current_page_item {background: #bd1c1c url(../images/back_menu_active_red.png) repeat-x top left; }
+ul.dropdown li:hover li {background: none;} 
+ul.dropdown li.active a {color: #fff;}
