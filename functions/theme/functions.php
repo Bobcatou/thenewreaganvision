@@ -21,7 +21,7 @@ add_image_size( 'homepage-slider', 440, 250, true );
 add_image_size( 'featured-categories', 290, 180, true );
 add_image_size( 'loop-main', 120, 90, true );
 add_image_size( 'recent-posts-widget', 60, 45, true );
-add_image_size( 'homepage-slider-thumb', 45, 30, true );
+add_image_size( 'homepage-slider-thumb', 60, 60, true );
 
 
 function wp_echoTwitter($username){
