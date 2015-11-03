@@ -71,7 +71,7 @@ array(
 			
 			<li id="post-thumb-<?php the_ID(); ?>"><a href="#" rel="nofollow">
 			<?php
-			get_the_image( array( 'size' => 'homepage-slider-thumb', 'width' => 45, 'height' => 30, 'before' => '<div class="cover">', 'after' => '</div>', 'link_to_post' => false ) );
+			get_the_image( array( 'size' => 'homepage-slider-thumb', 'width' => 60, 'height' => 60, 'before' => '<div class="cover">', 'after' => '</div>', 'link_to_post' => false ) );
 			?>
 			<h2><?php the_title(); ?></h2>
 			<p><?php the_content_limit(200, ''); ?></p>
