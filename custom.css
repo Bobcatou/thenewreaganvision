@@ -36,6 +36,12 @@ body {
 #featuredMain {min-height: 519px; }
 
 
+#postsSmall .cover img {
+	border: solid 1px #444 !important;
+}
+
+
+
 /*Added by Bryan to create additional widget for content*/
 #lowerContent {
 	background: #fff;
